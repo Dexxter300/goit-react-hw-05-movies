@@ -19,7 +19,7 @@ const Reviews = () => {
           setStatus('rejected');
           return Promise.reject(new Error('someting went wrong'));
         }
-        console.log(res);
+        // console.log(res);
 
         setReviews(res);
         setStatus('resolved');

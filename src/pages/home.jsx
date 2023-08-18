@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { getTrends } from 'components/api';
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import { Trends } from 'components/trends/trends';
 
 const Home = () => {
@@ -12,7 +12,7 @@ const Home = () => {
     getTrends()
       .then(res => res.json())
       .then(res => {
-        console.log(res);
+        // console.log(res);
         setTrend(res.results);
         //   setStatus('resolved');
       })
