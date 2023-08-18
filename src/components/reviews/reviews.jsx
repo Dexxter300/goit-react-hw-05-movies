@@ -25,7 +25,7 @@ const Reviews = () => {
         setStatus('resolved');
       })
       .catch(error => console.log(error));
-  }, []);
+  }, [id]);
 
   //   if (reviews.results.length === 0) {
   //     return <div>We don't have any reviews yet</div>;

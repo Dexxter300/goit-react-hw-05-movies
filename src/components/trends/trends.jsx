@@ -21,19 +21,20 @@ export const Trends = ({ trends }) => {
             </li>
           );
         }
-        if (movie.name) {
-          return (
-            <li className={css.li} key={movie.id}>
-              <Link
-                to={`/movies/${movie.id}`}
-                className={css.link}
-                state={{ from: location }}
-              >
-                {movie.name}
-              </Link>
-            </li>
-          );
-        }
+        // if (movie.name) {
+        return (
+          <li className={css.li} key={movie.id}>
+            <Link
+              to={`/movies/${movie.id}`}
+              className={css.link}
+              state={{ from: location }}
+            >
+              {movie.name}
+            </Link>
+          </li>
+        );
+        // }
+        // return;
       })}
     </ul>
   );

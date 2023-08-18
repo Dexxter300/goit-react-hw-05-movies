@@ -1,6 +1,6 @@
 import { findMovieByName } from 'components/api';
 import { Trends } from 'components/trends/trends';
-import { useLocation, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import css from './movies.module.css';
 
 const { useEffect, useState } = require('react');

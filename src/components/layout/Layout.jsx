@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import css from './layout.module.css';
 
-const { Outlet, NavLink, Link } = require('react-router-dom');
+const { Outlet, Link } = require('react-router-dom');
 
 const Layout = () => {
   return (

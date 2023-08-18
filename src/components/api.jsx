@@ -1,4 +1,4 @@
-const key = 'a7847a7111d49121298d04d56ec9460a';
+// const key = 'a7847a7111d49121298d04d56ec9460a';
 
 const options = {
   method: 'GET',

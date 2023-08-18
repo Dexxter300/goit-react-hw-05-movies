@@ -15,7 +15,7 @@ const Cast = () => {
       //   console.log(res);
     });
     //   `https://image.tmdb.org/t/p/w500/${currentMovie.poster_path}`;
-  }, []);
+  }, [id]);
   return (
     <div>
       <ul className={css.list}>
