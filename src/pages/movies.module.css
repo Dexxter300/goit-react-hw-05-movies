@@ -1,0 +1,17 @@
+.input {
+  width: 300px;
+  outline: 0;
+  height: 25px;
+  border-radius: 4px;
+  border: 0px;
+  transition: outline 200ms linear;
+}
+.input:focus {
+  outline: 2px solid rgb(126, 20, 175);
+}
+
+.title {
+  color: white;
+  margin: 0;
+  font-size: 30px;
+}

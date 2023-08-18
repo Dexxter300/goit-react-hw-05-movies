@@ -1,0 +1,28 @@
+header {
+  /* background-color: rgb(48, 9, 100); */
+  background-color: rgb(109, 17, 151);
+
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+main {
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 2000px;
+  background-color: rgb(34, 34, 34);
+  font-family: sans-serif;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  transition: color 300ms linear;
+}
+.link:hover {
+  color: rgb(128, 128, 128);
+}

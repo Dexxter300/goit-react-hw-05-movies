@@ -1,0 +1,32 @@
+.link {
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+
+  /* color: black; */
+  color: white;
+  transition: color 200ms linear;
+  padding: 15px 10px 15px 10px;
+}
+
+.li {
+  width: 500px;
+  margin-bottom: 10px;
+  background-color: rgb(126, 20, 175);
+  border-radius: 10px;
+  transition: 250ms linear;
+}
+
+.li:hover {
+  background-color: rgb(56, 18, 82);
+  /* color: rgb(138, 138, 138); */
+}
+
+/* .link:hover {
+  color: rgb(138, 138, 138);
+} */
+
+.ul {
+  padding-left: 5px;
+  list-style: none;
+}
